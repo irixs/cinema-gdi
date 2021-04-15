@@ -39,6 +39,11 @@ INSERT INTO historico_filme
 VALUES (:old.cod_filme, :old.titulo, :old.genero, :old.classificação_indicativa);
 END historico_filme_trigger;
 
+SELECT * FROM funcionario;
+UPDATE funcionario SET salario = 1500 WHERE cpf_p = 87748567456;
+UPDATE funcionario SET salario = 2000 WHERE carteira_trabalho = 26832575000164; 
+SELECT * FROM funcionario;
+
 --uso de record
 
 DECLARE
